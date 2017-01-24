@@ -1,3 +1,16 @@
 <resources>
+
     <string name="app_name">Weather</string>
+
+    <string name="main_search_hint">Enter city to search for</string>
+    <string name="main_short_search_help">Search in the box above for a city to receive its weather conditions.</string>
+    <string name="main_toast_searching">Searching...</string>
+    <string name="main_description">Description</string>
+    <string name="main_temperature">Temperature</string>
+    <string name="main_humidity">Humidity</string>
+    <string name="main_wind_speed">Wind Speed</string>
+    <string name="main_error">There was an error, please try again.</string>
+    <string name="main_city_headline">Resutls for %1$s:</string>
+    <string name="main_map_button">Show on map</string>
+
 </resources>

@@ -26,3 +26,5 @@ https://material.io/icons/
 Playbook for Developers App:
 https://play.google.com/store/apps/details?id=com.google.android.apps.secrets
 
+Using the Material Theme
+https://developer.android.com/training/material/theme.html
