@@ -10,7 +10,7 @@
     <string name="main_humidity">Humidity</string>
     <string name="main_wind_speed">Wind Speed</string>
     <string name="main_error">There was an error, please try again.</string>
-    <string name="main_city_headline">Resutls for %1$s:</string>
+    <string name="main_city_headline">Results for %1$s:</string>
     <string name="main_map_button">Show on map</string>
     <string name="title_activity_about">About</string>
     <string name="action_settings">Settings</string>
