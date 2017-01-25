@@ -136,3 +136,5 @@ Temporary Items
 hs_err_pid*
 
 # End of https://www.gitignore.io/api/android,java,windows,osx,linux
+
+!apk/*.apk
