@@ -8,6 +8,8 @@ Content:
 2. Android resource files and project files created during the workshop.
 3. Slides
 4. Links to more information.
+5. Mockups of the Android app
+6. APK file to install the Android App on your phone
 
 ## Links
 
@@ -28,3 +30,9 @@ https://play.google.com/store/apps/details?id=com.google.android.apps.secrets
 
 Using the Material Theme
 https://developer.android.com/training/material/theme.html
+
+Transmitting Network Data Using Volley
+https://developer.android.com/training/volley/index.html
+
+Openweathermap.org
+http://openweathermap.org/
