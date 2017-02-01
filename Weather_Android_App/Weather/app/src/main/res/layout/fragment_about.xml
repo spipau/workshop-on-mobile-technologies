@@ -1,19 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/content_about"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="sse.in.weather.AboutActivityFragment"
-    tools:showIn="@layout/activity_about">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <TextView
+    <data class=".AboutActivityFragmentBinding">
+
+        <variable
+            name="clickListener"
+            type="sse.in.weather.AboutActivityFragment" />
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/content_about"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/about_text"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="sse.in.weather.AboutActivityFragment"
+        tools:showIn="@layout/activity_about">
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_text" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@android:color/transparent"
+            android:src="@drawable/rise_logo"
+            android:onClick="@{clickListener::onRiseClicked}"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@android:color/transparent"
+            android:src="@drawable/sse_logo"
+            android:onClick="@{clickListener::onSseClicked}"/>
+
+    </LinearLayout>
+</layout>
