@@ -1,15 +1,14 @@
 # Workshop on Mobile Technologies
 
-This repository was created to grant access to participants of the Workshop on Mobile Technologies conducted at the Sanskrithi School of Engineering used in the workshop.
+This repository was created to grant access to participants of the RISE Workshop on Mobile Technologies conducted at the Sanskrithi School of Engineering used in the workshop.
 
 Content:
 
 1. Brochure of the event
 2. Android resource files and project files created during the workshop.
-3. Slides
-4. Links to more information.
-5. Mockups of the Android app
-6. APK file to install the Android App on your phone
+3. Links to more information.
+4. Mockups of the Android app
+5. APK file to install the Android App on your phone
 
 ## Links
 
@@ -39,3 +38,6 @@ http://openweathermap.org/
 
 Balsamiq Mockups - Life's too short for bad software!
 https://balsamiq.com/
+
+Android Asset Studio - A collection of tools to easily generate assets such as launcher icons for your Android app.
+https://romannurik.github.io/AndroidAssetStudio/index.html
